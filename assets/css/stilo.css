@@ -1,0 +1,222 @@
+body{
+  margin: auto;
+}
+
+ /* menu de navegaçao largo e alto com fondo */
+.nav{
+  width: 100%;
+  height: 90px;
+  background-color: blueviolet;
+  margin-top: -20px;
+}
+
+/* titulo de navegaçao  margen*/
+.nav h1{
+  color:rgb(36, 224, 92);
+  padding: 18px 0 0 90px;
+}
+
+/* estilo de imagem de navegaçao  tamanho y margen*/
+.nav img{
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: -70px 0 0 450px;
+}
+
+/* estilo a la caja menu  */
+.menu{
+  float: right;
+  width: 300px;
+  height: 50px;
+  margin-top: -70px;
+}
+
+/* estilo a las a los hijos i  */
+.menu i{
+  color: aliceblue;
+   font-size: 25px;
+   margin: 0px 5px 0 5px;
+}
+
+.encabezado {
+  width: 100%;
+  height: 490px;
+ background-image: url(../img/img.jpeg);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  margin-top:-10px;
+}
+.encabezado i{
+  color: rgb(15, 153, 77);
+   font-size: 40px;
+   margin: -50px 5px 0 5px;
+}
+.principal {
+  width: 100%;
+  height: 690px;
+  background-color: rgb(189, 189, 189);
+  margin-top: -25px;
+}
+.principal h1{
+  font-size: 35px;
+  color:rgb(15, 153, 77);
+  padding: 48px 0 0 120px;
+  text-align: left ;
+  margin-left: 280px;
+}
+.principal h2{
+  color:rgb(15, 153, 77);  
+}
+.principal img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 180px 100px 0 30px;
+}
+.conteudo {
+  width: 400px;
+  height: 550px;
+  background-color:rgb(189, 189, 189);
+  margin: 70px 10px 0px 90px;
+  border-radius: 10px;
+}
+.principal img{
+  float: right;
+  width: 300px;
+  height: 320px;
+  border-radius: 50%;
+  margin: -70px 0 0 0x;
+}
+.caja {
+  width: 100%;
+  height: 490px;
+  background-color: rgb(189, 189, 189);
+  margin-top: -20px;
+}
+.caja i{
+  color:rgb(15, 153, 77);
+  padding: 8px 0 0 50px;
+}
+.caja h2{
+  color:rgb(15, 153, 77);;
+  padding: 48px 0 0 120px;
+  text-align: left ;
+}
+.texto-1 p{
+  width: 310px;
+  height: 330px;
+  background-color:rgb(189, 189, 189);
+  margin: 10px 10px 0px 90px;
+  border-radius: 10px;
+}
+.caja img{
+  float:right;
+  width: 380px;
+  height: 320px;
+  border-radius: 50%;
+  margin-right: -15px 10px 5px 0px;
+  margin: -320px 50px 0px 10px;
+}
+.trabj img{
+  width: 100%;
+  height: 490px;
+ background-image: url(../img/img.jpeg);
+}
+.base {
+  width: 100%;
+  height: 550px;
+  background-color:rgb(189, 189, 189);;
+}
+.base img{
+  width: 470px;
+  height: 440px;
+  border-radius: 20%;
+  margin: 20px 0 0px 10px;
+}
+
+
+.api{
+  width:400px;
+  height: 400px;
+  background: #1fa10e;
+  border-radius: 15px;
+  opacity: 50px;
+  margin: 70px 0 -60px 300px;
+}
+.api img{
+  width: 200px;
+  height: 90px;
+  margin-top: 15px;
+  margin-left: -5px;
+  margin-bottom: 10px;
+}
+.api button{
+    background-color: #fff;
+    color: rgb(216, 91, 19);
+}
+.api button:hover{
+  background-color: rgb(51, 13, 142);
+  color: #fff;
+}
+.via-api{
+  width:250px;
+  height: 300px;
+  margin-left: 90px;
+}
+.via-api input{
+margin:5px;
+}
+
+
+
+.contato {
+  float: right;
+  width: 350px;
+  height: 400px;
+  margin: 100px 120px 0 0;
+  background-color: rgb(192, 144, 238);
+  border-radius: 15px;
+}
+
+.contato h2{
+  float: right;
+  color:rgb(15, 153, 77);
+  margin: -80px 100px 0  -120px ;
+  text-align: center;
+}
+.contato i{
+  color:rgb(15, 153, 77);
+  margin-left: 40px;
+}
+.contato input{
+  margin-top: 20px;
+  margin-left: 15px;
+
+  
+}
+.contato textarea{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.contato button{
+  margin: 20px 10px 0 148px;
+  
+}
+.footer p{
+  position: static;
+  background-color: rgb(161, 157, 157);
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold; 
+  font-size: 30px;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+
+
+

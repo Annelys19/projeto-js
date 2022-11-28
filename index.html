@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="assets/css/stilo.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>Home | annelys</title>
+</head>
+<body>
+	 <div class="nav">
+    <h1 id="sobre">Annelys Vivenes</h1>
+    <img  src="assets/img/01.jpeg">
+    <nav class= "menu"> 	
+         <a href="index.html"><i class=" fas fa-home"></i></a>
+        <a href="#sobre"><i class=" fas fa-user-circle"></i></a>
+        <a href="#contato"><i class=" fas fa-mobile-alt"></i></a><br><br>
+      <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href=" https://www.instagram.com/ "><i class="fa-brands fa-instagram-square"></i></a>
+        <a href="https://br.linkedin.com/company/login"><i class="fa-brands fa-linkedin"></i></a>
+      </nav>
+    </div> 
+           
+   <div class=" principal ">
+       <img src="assets/img/02.jpeg" alt="" sizes="" srcset="">
+
+ <h1>Sobre Eu</h1>
+
+<div class="conteudo"> <h2>Eu Annelys Vivenes </h2>
+ <p>Olá. Meu nome é Annelys Vivenes. Tenho 32 anos. Sou venezuelana e estou aqui no Brasil há quase 4 anos. Durante minha vida consegui cumprir algumas metas atrasadas, graças a Deus e minha família, que sempre me apoiou apesar das dificuldades que todos nós temos como seres humanos. Graças a todos, alguns objetivos foram alcançados, como estudos: técnico intermediário em eletricidade, gestor ambiental licenciado. e alguns cursos concluídos. mas também tive fortes desafios pelos quais passei por alguns anos para seguir em frente. Devido à crise econômica que o país de onde venho está passando por problemas políticos muito difíceis. Por isso minha família tomou a decisão de deixar nosso país em busca de novos horizontes que não tem sido fáceis para mim pelo simples fato de serem todos tão diferentes da minha cultura e principalmente do idioma que não é fácil para ninguém. começar uma nova vida tão drástica em tão pouco tempo. Mas não é impossível quando você tem alguém por quem lutar. Quer você goste ou não, você tem que tentar começar de novo. você tem que deixar tudo para trás pensando em sua família, trabalho, casa, amigos, cultura, tradições onde você vai começar sua nova vida que não será fácil, mas agradecendo a Deus pelas novas oportunidades que estão sendo oferecidas hoje espero aproveite ao máximo e aprenda mais graças a toti por sempre oferecer ajuda a pessoas vulneráveis ​​de diferentes raças e cores por isso agradeço novamente pela oportunidade
+</div>
+   </div> 
+   <div class="caja">
+       
+<h2><i class="far fa-thumbs-up"></i><br>Meu trabalho</h2>
+
+<div class="texto-1">	
+<p>Durante a confecção de uma peça existem várias etapas que vão desde o esboço até a embalagem para a venda. Dentre eles está a modelagem, que é quando a modelista interpreta o desenho e começa a fazer o molde, além da escolha de detalhes que podem fazer diferença na hora de costurar e finalizar a peça.
+  É durante a modelagem que muitos pontos importantes são definidos, garantindo que o resultado final seja positivo e a peça caia bem no corpo. Mas como funciona o processo de modelagem de roupa?  no corte son firadas as medidas do corpo e criados o molde para a pessoa especifica que vai usar a peça. Um papel de musselina e usado para pintar e fazer o molde, onde também seráo adicionadas as medidas. 
+  </p></div>	  
+<img src="assets/img/img.jpeg">
+   </div>  
+
+   <section class="api">
+    <div >
+      <div class="via-api">	
+   ​				<img src="https://qualcep.com.br/wp-content/uploads/2022/03/Qual-Cep.png"/>
+         <input type="text" id="cep" maxlength="9" placeholder=" Digite o CEP">
+<button class="btn-api" onclick="return viacep()" type="">buscar</button>
+
+         <input type="text" id="logradouro" placeholder="Endereço"> 
+         <input type="text" id="bairro" placeholder="Bairro">
+         <input type="text" id="localidade" placeholder="Cidade">
+         <input type="text" id="uf" placeholder="UF">
+         
+     </div>	  
+
+ <P id="error"></P>
+      </div>
+
+  </section>
+
+   <div class="base">
+    <img src="assets/img/a.n.jfif">
+   
+
+
+
+    <div class="contato">
+   <h2><i class="fas fa-tty"></i><br>CONTATO</h2>
+ 		         	
+			<form action="" class="formulario" id="formulario" method="POST" name="formulario">
+        <div>
+          <div>
+            
+            <input type="text" id="nome" name="nome" maxlength="25"placeholder="  inserir seu nome" />
+            <label for="nome"><i class="fas fa-user"></i></label>
+          </div>
+          <div>
+            <input type="email"  id="email" name="email"  maxlength="50" placeholder="  inserir seu email" />
+            <label for="email"><i class="fas fa-at"></i></label>
+          </div>
+          <textarea type="text"  id="mensagem" name="mensagem" rows="10" cols="38" placeholder=" inserir sua mensagem"></textarea>   
+          
+          <button type="submit" class="btn-form" onclick=" return validar()">Enviar</button>
+          </div>
+      </form>
+    </div>
+  </div>
+  	<footer class="footer">
+   <p>Copyright (c) 2022  All rights reserved Annelys Vivenes</p>
+	</footer>
+<script src="assets/js/formulario.js"></script>
+<script src="assets/js/cep.js"></script>
+</body>
+</html>
